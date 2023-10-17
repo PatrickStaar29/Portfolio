@@ -1,0 +1,20 @@
+.parcours{
+    height: 100vh;
+    &__titre{
+        font-size: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        color: white;   
+    }
+    &__photo{
+        height: 500px;
+        width: 400px;
+        object-fit: cover;
+    }
+    &__biographie{
+        color: white;
+        width: 700px;
+        margin-top: 50px;
+    }
+    
+}

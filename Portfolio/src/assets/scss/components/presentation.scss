@@ -1,0 +1,36 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .star {
+    position: absolute;
+    background-color: #fff;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    animation: twinkle 3s infinite;
+  }
+
+  .presentation{
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    width: 1500px;
+    line-height: 100%;
+    font-weight: 600;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+  }
+  
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
