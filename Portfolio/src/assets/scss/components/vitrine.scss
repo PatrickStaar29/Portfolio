@@ -1,0 +1,24 @@
+.vitrine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__img{
+        width: 1400px;
+        height: 600px;
+        margin-top: 50px;
+        object-fit: cover;
+        object-position: top;
+        box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.2);
+    }
+    &__text{
+        color: white;
+    }
+    &__titre{
+        text-align: center;
+        font-size: 50px;
+        margin: 50px 0;
+    }
+    &__description{
+            width: 1400px;
+    }
+}

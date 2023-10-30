@@ -1,0 +1,21 @@
+.tag{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1400px;
+    &__titre{
+        color: white;
+        font-size: 24px;
+        margin: 50px 0 25px 0;
+    }
+    &__placement{
+        display: flex;
+        gap: 15px;
+    }
+    &__tag{
+        background-color: #eae7e7;
+        padding: 5px;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+}

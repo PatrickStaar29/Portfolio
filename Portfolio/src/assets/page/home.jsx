@@ -4,6 +4,7 @@ import Parcours from "../components/parcours/parcours"
 import Presentation from "../components/presentation/presentation"
 import Card from "../components/card/card"
 import Tabl from "../components/data/data"
+import Footer from "../components/footer/footer"
 
 
 
@@ -15,7 +16,7 @@ function Home(){
                 <Presentation/>
                 <Parcours/>
                 <Competence/>
-                <section className="projet">
+                <section className="projet" id='projet'>
                     <h2 className="projets__titre">Mes projets</h2>
                     {Tabl.map((item)=>(
                         <Card key={item.id} data={item}/>     
@@ -23,6 +24,7 @@ function Home(){
                 </section>
                 
             </main>
+            <Footer/>
         </>
     )
 }
