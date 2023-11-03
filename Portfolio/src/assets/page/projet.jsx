@@ -1,18 +1,23 @@
-import Header from "../components/header/header"
+import HeaderProjet from "../components/headers/header-projet"
 import Data from "../components/data/data"
 import { useParams } from "react-router-dom"
 import Footer from "../components/footer/footer"
 import Tag from "../components/tag/tag"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 function Projet(){
     const { id } = useParams()
     const vitrineData = Data.find((item) => item.id === id)
     return(
         <>
-            <Header/>
+            <HeaderProjet/>
             <main>
                 <div className="vitrine">
-                    <img src={vitrineData.cover} className="vitrine__img"/>
+                    <div className="vitrine__placement">
+                        <FontAwesomeIcon icon={faArrowLeft} className="vitrine__fleche"/>
+                        <img src={vitrineData.cover} className="vitrine__img"/>
+                    </div>
                     <div className="vitrine__text">
                         <h2 className="vitrine__titre">{vitrineData.title}</h2>
                         <p className="vitrine__description">

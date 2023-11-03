@@ -2,7 +2,7 @@ import Wawa from './Image/photo_du_dev.jpeg'
 
 function Parcours(){
     return(
-        <section className='parcours' id='def'>
+        <section className='parcours' id='Parcours'>
             <h2 className="parcours__titre">Parcours</h2>
             <div className='parcours__placement'>
                 <img src={Wawa} className='parcours__photo' alt="Photo de Titouan Bretones" />
