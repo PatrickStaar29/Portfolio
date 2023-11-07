@@ -1,0 +1,50 @@
+.liencode {
+    display: flex;
+    justify-content: flex-start;
+    width: 1400px;
+    margin: 50px 0;
+
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+
+    &__card {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        overflow: hidden;
+        cursor: pointer;
+        &:hover .liencode__texte {
+            transform: translateX(0);
+        }
+        &:hover .liencode__gitlogo{
+            transform: rotate(360deg);
+        }
+    }
+
+    &__img {
+        background: #EAE7E7;
+        height: 45px;
+        width: 45px; 
+    }
+    &__gitlogo{
+       width: 45px; 
+       transition: transform 1s ease;
+    }
+
+    &__texte {
+        background-color: #eae7e7;
+        padding: 5px;
+        border-radius: 0 5px 5px 0;
+        font-size: 24px;
+        font-weight: 600;
+        transform: translateX(-100%);
+        transition: transform 1s ease;
+        z-index: -1;
+
+        
+    }
+}
+
+

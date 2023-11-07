@@ -7,11 +7,10 @@
         color: white; 
     }
     &__placement {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(6, 150px);
         justify-content: center;
-        gap: 50px;
-        height: 150px;
+        gap: 24px; 
     }
     &__techno{
         display: flex;
@@ -41,3 +40,14 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .competence{
+        &__placement{
+            grid-template-columns: repeat(3, 125px);  
+        }
+        &__img{
+            height: 125px;
+        }
+        
+    }    
+}

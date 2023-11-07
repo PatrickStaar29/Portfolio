@@ -17,8 +17,8 @@
   .presentation{
     text-align: center;
     color: white;
-    font-size: 150px;
-    width: 1500px;
+    font-size: 135px;
+    width: 940px;
     line-height: 100%;
     font-weight: 600;
     font-family: 'Roboto';
@@ -34,3 +34,9 @@
     }
   }
   
+@media screen and (max-width: 1024px) {
+    .presentation{
+      font-size: 100px;
+      width: 768px;
+    }    
+}

@@ -19,8 +19,8 @@ function Home(){
                 <section className="competence">
                     <h2 className="competence__titre">Compétences</h2>
                     <div className="competence__placement">
-                        {CompetenceData.map((item)=>(
-                            <Competence data={item}/> 
+                        {CompetenceData.map((item, index)=>(
+                            <Competence key={index} data={item}/> 
                         ))}
                     </div>
                 </section>
@@ -30,7 +30,6 @@ function Home(){
                         <Card key={item.id} data={item}/>     
                     ))}
                 </section>
-                
             </main>
             <Footer/>
         </>

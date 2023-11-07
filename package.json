@@ -3,6 +3,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "react-intersection-observer": "^9.5.2",
     "react-router-scroll-top": "^0.3.1"
   }
 }
