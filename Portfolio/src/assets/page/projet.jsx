@@ -26,12 +26,10 @@ function Projet(){
         <>
             <HeaderProjet/>
             <main>
-                <div className="vitrine">
+                <section className="vitrine">
                     <div className="vitrine__placement">
-                        {/* <Link to='/'> */}
                             <FontAwesomeIcon onClick={redirectToHome} icon={faArrowLeft} className="vitrine__fleche"/>
-                        {/* </Link> */}
-                        <img src={vitrineData.cover} className="vitrine__img"/>
+                        <img src={vitrineData.cover} className="vitrine__img" alt={vitrineData.alt}/>
                     </div>
                     <div className="vitrine__text">
                         <h2 className="vitrine__titre" id="description">{vitrineData.title}</h2>
@@ -39,16 +37,16 @@ function Projet(){
                             {vitrineData.description}
                         </p>
                     </div>
-                    <div className="tag">
-                        <h2 className="tag__titre" id="tag">technologie utilisé</h2>
-                            <div className="tag__placement">
-                                {vitrineData.tags.map((tag, index)=>(
-                                    <Tag key={index} tag={tag}/>     
-                                ))}
-                            </div>
-                    </div>
-                    <LienCode github={vitrineData.github}/>
-                </div>
+                </section>
+                <section className="tag">
+                    <h2 className="tag__titre" id="tag">Technologies utilisées</h2>
+                        <div className="tag__placement">
+                            {vitrineData.tags.map((tag, index)=>(
+                                <Tag key={index} tag={tag}/>     
+                            ))}
+                        </div>
+                </section>
+                <LienCode github={vitrineData.github}/>
             </main>
             <Footer/>
         </>

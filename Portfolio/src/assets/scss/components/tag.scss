@@ -20,3 +20,22 @@
         font-weight: 600;
     }
 }
+
+@media screen and (max-width: 1023px){
+    .tag{
+        max-width: 800px;
+        &__titre{
+            margin: 25px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .tag{
+        max-width: 600px;
+        &__titre{
+            font-size: 16px;
+            margin: 25px 0;
+        }
+    }
+}

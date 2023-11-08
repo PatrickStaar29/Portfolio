@@ -9,7 +9,7 @@ function Card({data}){
     return(
             <div  ref={ref} className={`projets__display ${inView ? 'projets__display--visible' : ''}`}> 
                 <Link to={`/projet/${data.id}`}>
-                    <img className="projets__img" src={data.cover}/>
+                    <img className="projets__img" src={data.cover} alt={data.alt} />
                 </Link>
             </div>
         
