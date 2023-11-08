@@ -10,3 +10,20 @@
         font-size: 24px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .footer{
+      margin-top: 25px;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .footer{
+        margin-top: 15px;
+        height: 75px;
+      
+      &__texte{
+        font-size: 12px;
+      }
+    }    
+}

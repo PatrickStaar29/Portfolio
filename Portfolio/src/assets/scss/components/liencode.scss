@@ -2,8 +2,7 @@
     display: flex;
     justify-content: flex-start;
     width: 1400px;
-    margin: 50px 0;
-
+    margin: auto;
     & a{
         text-decoration: none;
         color: black;
@@ -15,6 +14,7 @@
         border-radius: 5px;
         overflow: hidden;
         cursor: pointer;
+        margin: 50px 0;
         &:hover .liencode__texte {
             transform: translateX(0);
         }
@@ -42,8 +42,6 @@
         transform: translateX(-100%);
         transition: transform 1s ease;
         z-index: -1;
-
-        
     }
 }
 

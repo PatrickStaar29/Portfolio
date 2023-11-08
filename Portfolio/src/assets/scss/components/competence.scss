@@ -40,7 +40,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .competence{
         &__placement{
             grid-template-columns: repeat(3, 125px);  
@@ -51,3 +51,18 @@
         
     }    
 }
+
+@media screen and (max-width: 767px) {
+    .competence{
+        &__titre{
+            margin: 25px 0;
+            font-size: 25px;
+        }
+        &__placement{
+            grid-template-columns: repeat(2, 100px);  
+        }
+        &__img{
+            height: 100px;
+        }
+    }    
+  }

@@ -16,9 +16,9 @@ function Home(){
             <main>
                 <Presentation/>
                 <Parcours/>
-                <section className="competence">
+                <section className="competence"  id="Competences">
                     <h2 className="competence__titre">Compétences</h2>
-                    <div className="competence__placement">
+                    <div className="competence__placement" >
                         {CompetenceData.map((item, index)=>(
                             <Competence key={index} data={item}/> 
                         ))}
