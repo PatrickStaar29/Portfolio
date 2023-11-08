@@ -1,5 +1,3 @@
-
-
 function Competence({data}){
     return(
         <div className="competence__techno">

@@ -6,12 +6,14 @@ import Card from "../components/card/card"
 import Tabl from "../components/data/data"
 import Footer from "../components/footer/footer"
 import CompetenceData from "../components/data/data-competence"
+import Head from "../head/head"
 
 
 
 function Home(){
     return(
         <>
+            <Head/>
             <Header/>
             <main>
                 <Presentation/>

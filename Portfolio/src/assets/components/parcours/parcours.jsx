@@ -10,7 +10,6 @@ function Parcours(){
                     j'adore créer des expériences utilisateur innovantes. Mon travail reflète ma connexion à la Bretagne, une source constante d'inspiration.
                 </p>
             </div>
-
         </section>
     )
 }

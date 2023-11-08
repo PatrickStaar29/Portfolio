@@ -13,7 +13,6 @@ function LienCode({ github }){
                 </div>
             </Link>
         </section>
-        
     )
 }
 

@@ -23,6 +23,7 @@
     font-weight: 600;
     font-family: 'Roboto';
     text-transform: uppercase;
+    user-select: none;
   }
   
   @keyframes twinkle {
@@ -35,10 +36,10 @@
   }
   
 @media screen and (max-width: 1023px) {
-    .presentation{
-      font-size: 100px;
-      width: 768px;
-    }    
+  .presentation{
+    font-size: 100px;
+    width: 768px;
+  }    
 }
 
 @media screen and (max-width: 767px) {
