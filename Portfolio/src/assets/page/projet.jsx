@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import HeaderProjet from "../components/headers/header-projet"
 import Data from "../components/data/data"
-import { Link, useParams, useNavigate } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import Footer from "../components/footer/footer"
 import Tag from "../components/tag/tag"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
