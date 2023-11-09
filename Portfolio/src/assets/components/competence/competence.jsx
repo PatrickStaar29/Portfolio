@@ -1,4 +1,6 @@
 function Competence({data}){
+
+    
     return(
         <div className="competence__techno">
             <img src={data.cover} alt={data.alt} className="competence__img"/>
