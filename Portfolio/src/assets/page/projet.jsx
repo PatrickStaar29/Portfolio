@@ -7,6 +7,7 @@ import Tag from "../components/tag/tag"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import LienCode from "../components/gitlink/gitlink"
+import Head from "../head/head"
 
 
 
@@ -24,6 +25,7 @@ function Projet(){
     }, []);
     return(
         <>
+            <Head/>
             <HeaderProjet/>
             <main>
                 <section className="vitrine">
